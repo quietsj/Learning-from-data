@@ -1,16 +1,3 @@
-
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-
 # Learning from data
 
 今年2月的时候开始学习台大林轩田老师的机器学习课程，感觉讲的非常好，课程的参考教材是**learning from data**，网上查阅资料的时候发现关于这本书的笔记几乎没有，所以想自己做一个学习笔记，记录教材中的习题的解法，一来可以加深自己的理解，而来也可以给后来学习的小伙伴一些参考。这份笔记主要以**learning from data**的习题解析为主，笔记形式为Markdown以及Jupyter Notebook结合的形式，因为笔者水平有限，难免有些错误，欢迎指出。 
@@ -163,7 +150,3 @@ https://book.douban.com/subject/11026330/
 | Chapter 8 | 35       | 35       | 无                              | 已完成优化 |
 | Chapter 9 | 46       | 41       | Exercise 18,Problem 17,26,27,28 | 已完成优化 |
 | 总计      | 300      | 292      |                                 |            |
-
-(a) 因为$y(t)\ne \text {sign}(w^T(t)x(t))$，所以当$\text {sign}(w^T(t)x(t))>0 $时，$y(t)=-1$， 当$\text {sign}(w^T(t)x(t))<0 $时，$y(t)=1$，所以$y(t)w^T(t)x(t) < 0$
-
-(b) $$ y(t)w^T(t+1)x(t)=y(t)(w(t) + y(t)x(t))x(t)=y(t)w^T(t)x(t)+y^2(t)x^T(t)x(t) $$ 注意$x(t)$的第一个分量为$1$(参考课本)，所以$y^2(t)x^T(t)x(t)>0$，因此 $$ y(t)w^T(t+1)x(t)>y(t)w^T(t)x(t) $$
