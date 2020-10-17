@@ -1653,3 +1653,4 @@ $$
 
 [http://www.xuetangx.com/courses/course-v1:MITx+6_041x+2018_T1/about](http://www.xuetangx.com/courses/course-v1:MITx+6_041x+2018_T1/about)
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
