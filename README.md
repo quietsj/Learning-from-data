@@ -167,5 +167,3 @@ https://book.douban.com/subject/11026330/
 (a) 因为$y(t)\ne \text {sign}(w^T(t)x(t))$，所以当$\text {sign}(w^T(t)x(t))>0 $时，$y(t)=-1$， 当$\text {sign}(w^T(t)x(t))<0 $时，$y(t)=1$，所以$y(t)w^T(t)x(t) < 0$
 
 (b) $$ y(t)w^T(t+1)x(t)=y(t)(w(t) + y(t)x(t))x(t)=y(t)w^T(t)x(t)+y^2(t)x^T(t)x(t) $$ 注意$x(t)$的第一个分量为$1$(参考课本)，所以$y^2(t)x^T(t)x(t)>0$，因此 $$ y(t)w^T(t+1)x(t)>y(t)w^T(t)x(t) $$
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
